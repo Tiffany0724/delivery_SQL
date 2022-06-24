@@ -1,0 +1,15 @@
+/*
+在營運上，平台會定期和餐廳溝通不同餐點的表現。
+因此我們會需要小幫手幫忙統計，找出在各餐廳中我們平台上從未賣出的餐點。
+*/
+
+# way1
+SELECT m.merchant, m.item 
+  FROM merchants AS m 
+  LEFT JOIN deliveries AS d ON m.item_id = d.item_id 
+ WHERE d.order_id IS NULL;
+ 
+# way2
+SELECT item
+FROM deliveries
+WHERE item IS NULL;
