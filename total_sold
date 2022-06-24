@@ -1,0 +1,21 @@
+/*
+為了讓上架在平台的餐廳能夠持續留存，主管開始思考，是否有哪些餐廳在平台上營收不佳，我們可以如何幫助他們？
+以避免餐廳好不容易上架，卻很快就從平台下架的問題發生。
+為了先評估問題是否存在，以及可能會出現在哪幾間餐廳，希望能幫忙算出哪一些餐廳在這三天（2022-01-01 - ​​2022-01-03）的營收少於 300 元。
+*/
+
+#way1
+SELECT d.merchant, SUM(price) AS total_sales 
+    FROM deliveries AS d 
+    JOIN merchants AS m 
+      ON d.item_id = m.item_id 
+   WHERE d.order_date BETWEEN '2022-01-01'AND '2022-01-03'
+GROUP BY d.merchant 
+  HAVING SUM(price) < 300;
+  
+#way2
+select merchant sum('price') as total_sold
+from   deliveries
+where order_date='2022-01-01 - ​​2022-01-03'
+group by merchant 
+having 'total_sold'<=300;
