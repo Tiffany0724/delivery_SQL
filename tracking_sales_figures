@@ -1,0 +1,29 @@
+/*
+
+之前主管有發現，我們的速食和中餐是最暢銷的餐點，佔據一定比例的營收。因此我們在追蹤營收狀況時，會優先看這兩種類型的餐點，在這幾天的總營收有沒有達到我們預期的要求。
+算出 merchant type 等於 fast food 或 chinese 總共的營收。
+
+*/
+# way1
+
+SELECT  merchant_type, SUM (price) AS total_sales 
+  FROM deliveries 
+     JOIN merchants 
+       ON deliveries.item_id = merchants.item_id 
+
+ WHERE merchant_type = 'fast food' 
+       OR merchant_type = 'chinese' 
+
+ GROUP BY merchant_type;
+
+#way2
+
+select * 
+from deliveries
+where merchant type='fast food'
+union
+select * 
+from deliveries
+where merchant type='chinese';
+
+
