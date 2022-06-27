@@ -1,10 +1,7 @@
 /*
 To keep the restaurant on the platform, the supervisor is needed to check the restaurants that are not doing well and should help them. 
 We want to be able to see the profit of the restaurants making under 300 dollars from 2022-01-01 to 2022-01-03 to evaluate which restaurants need assistance. 
-To understand more about the activity of restaurants on the platform, the manager must monitor the performance of every operation. 
-To avoid the high price being confusing, managers point out that the information they would like to see is the number of orders rather than the profit. 
-We would like to have you list every dish from every single restaurant. During the operation, our platform communicates to restaurants about the performance of their dishes. 
-So we need someone who is able to count the dishes that have never been sold on the platform.
+
 
 
 為了讓上架在平台的餐廳能夠持續留存，主管開始思考，是否有哪些餐廳在平台上營收不佳，我們可以如何幫助他們？
