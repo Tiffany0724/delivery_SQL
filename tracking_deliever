@@ -1,4 +1,10 @@
 /*
+
+In other platforms, a courier is an important factor in creating a great experience to track the circumstance of the delivery. 
+To fulfill different demands, we could list different conditions to query our collected information. 
+Recently, one of our couriers Rider1 told our platform that there might be a mistake in the calculation of the fast food’s commission. 
+Therefore we request that in order to count commission, the total profit is calculated first so that, we are able to help the platform count Rider1 for delivering fast food and show the restaurant’s name.
+
 在送餐平台，外送員也是創造優質體驗重要的一環。因此我們也會需要追蹤外送員的送餐狀況。在不同的需求下，我們可以列出不同的條件（conditions）來查詢我們需要的資料。
 近期剛好有一個外送員，rider1，向平台反應他近期送「速食」的抽成費用似乎計算錯誤了。要算出抽成，我們要先算出他送出的餐點總營收。
 現在，我們需要幫忙算出 rider1 在「速食」這個品項中總共的餐點營收，同時也顯示出他所送出的餐廳名字。
