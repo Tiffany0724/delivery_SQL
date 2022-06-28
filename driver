@@ -1,10 +1,3 @@
-/*
-After reviewing the performance of the restaurant, we would also want to understand the performance of our couriers. Competition is stiff because there are lots of delivery platforms.
-If our couriers cannot earn basic income, they will leave to another platform.
-
-看完了餐廳的表現，我們也想了解我們外送員的表現。畢竟送餐平台那麼多，競爭那麼激烈。如果我們的外送員都覺得無法在我們平台上賺到一定的收入，他們可能就會跑去其他的送餐平台。
-為了掌握外送員的營收表現，我們需要外送員所接到的訂單和總收入。因此，希望小幫手可以列出所有外送員送出的餐點次數和營收。
-*/
 
 #way1
 SELECT rider,   
