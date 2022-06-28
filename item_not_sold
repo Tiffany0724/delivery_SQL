@@ -1,9 +1,3 @@
-/*
-During the operation, our platform communicates to restaurants about the performance of their dishes. 
-So we need someone who is able to count the dishes that have never been sold on the platform.
-在營運上，平台會定期和餐廳溝通不同餐點的表現。
-因此我們會需要小幫手幫忙統計，找出在各餐廳中我們平台上從未賣出的餐點。
-*/
 
 # way1
 SELECT m.merchant, m.item 
