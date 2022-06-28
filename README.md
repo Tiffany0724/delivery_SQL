@@ -26,4 +26,4 @@ The standard of awarding is to select the most diligent delivery staff which fin
 
 We also wanted to have the option to distinguish the most accountable delivery staff for which I generated a system to compound the delivery time with the number of delivered orders.
 
-![image](https://user-images.githubusercontent.com/107885630/176077763-afbb5c58-4a0b-4a56-812c-a37c6879affd.png)
+
